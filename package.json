@@ -1,0 +1,27 @@
+{
+  "name": "xpress",
+  "version": "1.0.0",
+  "description": "express backend for merxpress",
+  "author": "MichaelOnyoin <moonyoin@gmail.com>",
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichaelOnyoin/xpress.git"
+  },
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-errors": "^2.0.0",
+    "pino": "^9.7.0",
+    "pino-http": "^10.5.0",
+    "pino-pretty": "^13.0.0"
+  }
+}
