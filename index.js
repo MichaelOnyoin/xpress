@@ -89,3 +89,9 @@ module.exports = function main (options, cb) {
   })
 }
 
+require('./')({
+  port: 8000,
+  host: 'localhost'
+})
+
+
