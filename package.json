@@ -14,7 +14,7 @@
     "url": "https://github.com/MichaelOnyoin/xpress.git"
   },
   "scripts": {
-    "start": "./bin/app",
+    "start": "node ./bin/app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "http-errors": "^2.0.0",
     "pino": "^9.7.0",
     "pino-http": "^10.5.0",
-    "pino-pretty": "^13.0.0"
+    "pino-pretty": "^13.0.0",
+    "sqlite3": "^5.1.7"
   }
 }
